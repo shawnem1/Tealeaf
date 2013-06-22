@@ -4,7 +4,7 @@ puts "enter key with no word and your words"
 puts "will be displayed in alphabetical order."
 words = []
 while true
-	word = gets.chomp
+	word = gets.chomp.downcase
 	words.push word
 
 	if word == ""
